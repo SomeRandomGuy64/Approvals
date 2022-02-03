@@ -31,6 +31,8 @@ for path in os.listdir(target):
         originalFile = path
         #saves the extension of the original file
         newExtension = extension(originalFile)
+   #elif fileName(path) = ''
+   #    print("No filepath has been selected")
     else:
         #if the file isn't the approval the filename gets added to an array
         fileList.append(fileName(path))
