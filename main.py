@@ -61,3 +61,4 @@ if originalFile != 0:
         fileListNo += 1
 else:
     print("There isn't an approval")
+    #input('Press ENTER to exit')
